@@ -6,7 +6,7 @@
     <button class="text-button project-button" data-project="${e.id}">Case study <span>↗</span></button>
   </article>`).join("");document.querySelector("#app").innerHTML=`
   <header class="nav"><div class="container nav-content">
-    <a class="logo" href="#home" aria-label="Home">JL<span>.</span></a>
+    <a class="logo" href="#home" aria-label="Home">Engineer Portfolio<span>.</span></a>
     <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><i></i><i></i></button>
     <nav id="navigation"> <a class="active" href="#home">Home</a><a href="/about">About</a><a href="#work">Work</a><a href="#coursework">Coursework</a><a href="#contact">Contact</a></nav>
   </div></header>
