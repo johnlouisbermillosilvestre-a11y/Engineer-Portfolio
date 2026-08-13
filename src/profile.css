@@ -1,0 +1,11 @@
+.hero-grid { grid-template-columns: 1.1fr .48fr .55fr; gap: 28px; }
+
+.profile-card { position:relative; min-height:348px; border:1px solid var(--line); border-radius:18px; overflow:hidden; box-shadow:0 30px 70px #0005; transform:rotate(-1.5deg); background:#0a1a14; }
+.profile-card img { width:100%; height:100%; position:absolute; inset:0; object-fit:cover; object-position:center 35%; filter:saturate(.92) contrast(1.05); }
+.profile-overlay { position:absolute; inset:auto 0 0; padding:20px; background:linear-gradient(transparent,rgba(4,13,9,.96) 45%); }
+.profile-overlay p { font:500 .65rem DM Mono; color:var(--lime); letter-spacing:.14em; margin:15px 0 6px; }
+.profile-overlay h2 { font-size:1.65rem; line-height:.95; }
+.profile-overlay span { display:block; color:#c5d7ce; font-size:.69rem; margin-top:10px; }
+
+@media (max-width:800px) { .profile-card { max-width:380px; min-height:440px; justify-self:start; } }
+@media (max-width:560px) { .profile-card { max-width:none; min-height:400px; } }
