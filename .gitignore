@@ -1,0 +1,9 @@
+# Dependencies and local npm cache are installed by the deployment platform.
+node_modules/
+.npm-cache/
+
+# Generated production output.
+dist/
+
+# Local editor settings.
+.vscode/
