@@ -44,7 +44,7 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
         <div class="hero-actions"><a class="button button-primary" href="#work">See my work <span>↓</span></a><a class="button button-ghost" href="#contact">Let's connect</a></div>
       </div>
       <aside class="profile-card reveal" aria-label="Portrait of Engr. John Louis B. Silvestre">
-        <img src="/john-louis.jpg" alt="Engr. John Louis B. Silvestre" />
+        <img src="${import.meta.env.BASE_URL}john-louis.jpg" alt="Engr. John Louis B. Silvestre" />
         <div class="profile-overlay"><p>ENGR.</p><h2>John Louis<br>Silvestre</h2><span>PUP Parañaque · BSCpE</span></div>
       </aside>
       <aside class="terminal reveal" aria-label="Student profile">
